@@ -1,0 +1,1 @@
+../../../libksygpulive/prebuilt/include/KSYGPUFilter/KSYBuildInSpecialEffects.h

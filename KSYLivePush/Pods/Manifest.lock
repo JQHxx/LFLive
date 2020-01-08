@@ -1,0 +1,36 @@
+PODS:
+  - GPUImage (0.1.7)
+  - libksygpulive/base (3.0.4)
+  - libksygpulive/libksygpulive (3.0.4):
+    - GPUImage
+    - libksygpulive/streamerbase
+  - libksygpulive/mediacodec (3.0.4)
+  - libksygpulive/mediacore_enc_base (3.0.4)
+  - libksygpulive/mediacore_enc_lite (3.0.4)
+  - libksygpulive/streamerbase (3.0.4):
+    - libksygpulive/base
+    - libksygpulive/mediacodec
+    - libksygpulive/mediacore_enc_base
+    - libksygpulive/mediacore_enc_lite
+    - libksygpulive/yuv
+  - libksygpulive/yuv (3.0.4)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - libksygpulive/libksygpulive
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GPUImage
+    - libksygpulive
+    - Masonry
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  libksygpulive: aca3eb30e7a38ee6565feb52feb82ccc0103ce43
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: e86c501c560eed6b584ecb37d37d296ff19dd4f8
+
+COCOAPODS: 1.7.5
